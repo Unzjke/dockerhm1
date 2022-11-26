@@ -10,4 +10,4 @@ RUN cd boxfuse-sample-java-war-hello/
 RUN mvn package
 RUN cd target/
 RUN cp hello-1.0.war /var/lib/tomcat9/webapps/
-CMD ["bash"]
+CMD ["catalina.sh", "run"]
