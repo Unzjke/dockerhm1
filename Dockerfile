@@ -1,4 +1,3 @@
-  GNU nano 4.8                                                               Dockerfile                                                               Modified  FROM ubuntu:18.04
 FROM ubuntu:20.04
 RUN apt update
 RUN apt install default-jdk -y
